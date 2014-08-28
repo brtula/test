@@ -1,0 +1,14 @@
+{
+  "name": "routine",
+  "description": "simple app to view routine",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/img/heart.png"
+  },
+  "developer": {
+    "name": "Buddhi Raj Tuladhar"
+    
+  },
+  "installs_allowed_from": ["*"],
+  "default_locale": "en"
+}

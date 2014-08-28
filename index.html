@@ -1,0 +1,455 @@
+	<!-- Routing for college  -->
+<html>
+	<head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="jquery.mobile-1.4.2.css">
+		<script src="jquery.js"></script>
+		<script src="jquery.mobile-1.4.2.js"></script>
+
+	</head>
+<body>
+<!--this is for main calendar-->
+
+<div data-role="page" id="calendar" data-theme="b">
+
+<div data-role="panel" id="overlayPanel" data-display="overlay"> 
+    <h1>Settings</h1>
+    
+    		 <input type="button" value="update">
+    
+  </div> 
+
+
+  <div data-role="header" data-theme="a">
+  
+     <h5 id="demo"> </h5>
+
+		<script type="text/javascript" >
+
+			var d = new Date();
+			document.getElementById("demo").innerHTML = d.toDateString();
+
+		</script>
+
+        
+  </div>
+
+  <div data-role="main" class="ui-content">
+  
+    <ul data-role="listview" data-inset="true">
+      <li data-icon="false"><a href="#sunday" data-transition="flip" style="text-align: center;">Sunday</a> </li>
+      <li data-icon="false"><a href="#monday" data-transition="flip" style="text-align: center;">Monday</a>  </li>
+      <li data-icon="false"><a href="#tuesday" data-transition="flip" style="text-align: center;">Tuesday</a>   </li>
+      <li data-icon="false"><a href="#wednesday" data-transition="flip" style="text-align: center;">Wednesday</a>  </li>
+      <li data-icon="false"><a href="#thursday" data-transition="flip" style="text-align: center;">Thursday</a>  </li>
+      <li data-icon="false"><a href="#friday" data-transition="flip" style="text-align: center;">Friday</a>  </li>
+      <li data-icon="false"><a href="#saturday" data-transition="flip" style="text-align: center;">Saturday</a>  </li>
+    </ul>
+  </div>
+
+  <div data-role="footer">
+    <h1><a href="#overlayPanel" class="ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext">Open Panel</a></h1>   
+  </div>
+</div> 
+<!-- this is for sunday page  -->
+
+<div data-role="page" id="sunday" data-theme="b" >
+  <div data-role="header">
+    <h1> 2014 AD/ 2071 BS </h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  
+  
+   <table border="1" style="width: 100%; height: 100%;">
+      <thead >
+        <tr>
+        
+          <th>Subject</th>
+          <th>Time</th>
+         
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          
+          <td style=" text-align:center; ">Compiler Design</td> <!-- subject-->
+          <td style=" text-align:center; ">7:00 - 7:45</td> <!-- time-->
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Software Engineering </td>
+          <td style=" text-align:center; ">7:45-8:45</td>
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Break</td>
+          <td style=" text-align:center; ">8:45-10:00</td>
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Web Technology</td>
+          <td style=" text-align:center; ">10:00-10:45</td>
+          
+        </tr>
+      </tbody>
+    </table>
+  
+  
+  
+  
+    
+  </div>
+
+  <div data-role="footer">
+    <h1> <a href="#calendar" data-transition="turn">Main Menu</a> </h1>
+  </div>
+</div> 
+<!-- this is for monday -->
+
+<div data-role="page" id="monday" data-theme="b">
+  <div data-role="header">
+    <h1> 2014 AD/ 2071 BS </h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  
+  
+  <table border="1" style="width: 100%; height: 100%;">
+      <thead >
+        <tr>
+        
+          <th>Subject</th>
+          <th>Time</th>
+         
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          
+          <td style=" text-align:center; ">Compiler Design</td> <!-- subject-->
+          <td style=" text-align:center; ">7:00 - 7:45</td> <!-- time-->
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Software Engineering </td>
+          <td style=" text-align:center; ">7:45-8:45</td>
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Break</td>
+          <td style=" text-align:center; ">8:45-10:00</td>
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Web Technology</td>
+          <td style=" text-align:center; ">10:00-10:45</td>
+          
+        </tr>
+      </tbody>
+    </table>
+  
+  
+  
+  
+    
+  </div>
+
+  <div data-role="footer">
+    <h1> <a href="#calendar" data-transition="turn">Main Menu</a> </h1>
+  </div>
+</div> 
+<!-- this if for tuesday -->
+
+<div data-role="page" id="tuesday" data-theme="b">
+  <div data-role="header">
+    <h1> 2014 AD/ 2071 BS </h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  
+  
+  <table border="1" style="width: 100%; height: 100%;">
+      <thead >
+        <tr>
+        
+          <th>Subject</th>
+          <th>Time</th>
+         
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          
+          <td style=" text-align:center; ">Compiler Design</td> <!-- subject-->
+          <td style=" text-align:center; ">7:00 - 7:45</td> <!-- time-->
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Software Engineering </td>
+          <td style=" text-align:center; ">7:45-8:45</td>
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Break</td>
+          <td style=" text-align:center; ">8:45-10:00</td>
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Web Technology</td>
+          <td style=" text-align:center; ">10:00-10:45</td>
+          
+        </tr>
+      </tbody>
+    </table>
+  
+  
+  
+  
+    
+  </div>
+
+  <div data-role="footer">
+    <h1> <a href="#calendar" data-transition="turn">Main Menu</a> </h1>
+  </div>
+</div> 
+<!-- this if for wednesday -->
+
+<div data-role="page" id="wednesday" data-theme="b">
+  <div data-role="header">
+    <h1> 2014 AD/ 2071 BS </h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  
+  
+  <table border="1" style="width: 100%; height: 100%;">
+      <thead >
+        <tr>
+        
+          <th>Subject</th>
+          <th>Time</th>
+         
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          
+          <td style=" text-align:center; ">Compiler Design</td> <!-- subject-->
+          <td style=" text-align:center; ">7:00 - 7:45</td> <!-- time-->
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Software Engineering </td>
+          <td style=" text-align:center; ">7:45-8:45</td>
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Break</td>
+          <td style=" text-align:center; ">8:45-10:00</td>
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Web Technology</td>
+          <td style=" text-align:center; ">10:00-10:45</td>
+          
+        </tr>
+      </tbody>
+    </table>
+  
+  
+  
+  
+    
+  </div>
+
+  <div data-role="footer">
+    <h1> <a href="#calendar" data-transition="turn">Main Menu</a> </h1>
+  </div>
+</div> 
+<!-- this if for thursday -->
+
+<div data-role="page" id="thursday" data-theme="b">
+  <div data-role="header">
+    <h1> 2014 AD/ 2071 BS </h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  
+  
+  <table border="1" style="width: 100%; height: 100%;">
+      <thead >
+        <tr>
+        
+          <th>Subject</th>
+          <th>Time</th>
+         
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          
+          <td style=" text-align:center; ">Compiler Design</td> <!-- subject-->
+          <td style=" text-align:center; ">7:00 - 7:45</td> <!-- time-->
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Software Engineering </td>
+          <td style=" text-align:center; ">7:45-8:45</td>
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Break</td>
+          <td style=" text-align:center; ">8:45-10:00</td>
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Web Technology</td>
+          <td style=" text-align:center; ">10:00-10:45</td>
+          
+        </tr>
+      </tbody>
+    </table>
+  
+  
+  
+  
+    
+  </div>
+
+  <div data-role="footer">
+    <h1> <a href="#calendar" data-transition="turn">Main Menu</a> </h1>
+  </div>
+</div> 
+<!-- this if for friday -->
+
+<div data-role="page" id="friday" data-theme="b">
+  <div data-role="header">
+    <h1> 2014 AD/ 2071 BS </h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  
+  
+  <table border="1" style="width: 100%; height: 100%;">
+      <thead >
+        <tr>
+        
+          <th>Subject</th>
+          <th>Time</th>
+         
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          
+          <td style=" text-align:center; ">Compiler Design</td> <!-- subject-->
+          <td style=" text-align:center; ">7:00 - 7:45</td> <!-- time-->
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Software Engineering </td>
+          <td style=" text-align:center; ">7:45-8:45</td>
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Break</td>
+          <td style=" text-align:center; ">8:45-10:00</td>
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Web Technology</td>
+          <td style=" text-align:center; ">10:00-10:45</td>
+          
+        </tr>
+      </tbody>
+    </table>
+  
+  
+  
+  
+    
+  </div>
+
+  <div data-role="footer">
+    <h1> <a href="#calendar" data-transition="turn">Main Menu</a> </h1>
+  </div>
+</div> 
+<!-- this if for saturday -->
+
+<div data-role="page" id="saturday" data-theme="b">
+  <div data-role="header">
+    <h1> 2014 AD/ 2071 BS </h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  
+  
+ <table border="1" style="width: 100%; height: 100%;">
+      <thead >
+        <tr>
+        
+          <th>Subject</th>
+          <th>Time</th>
+         
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          
+          <td style=" text-align:center; ">Compiler Design</td> <!-- subject-->
+          <td style=" text-align:center; ">7:00 - 7:45</td> <!-- time-->
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Software Engineering </td>
+          <td style=" text-align:center; ">7:45-8:45</td>
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Break</td>
+          <td style=" text-align:center; ">8:45-10:00</td>
+          
+        </tr>
+        <tr>
+          
+          <td style=" text-align:center; ">Web Technology</td>
+          <td style=" text-align:center; ">10:00-10:45</td>
+          
+        </tr>
+      </tbody>
+    </table>
+  
+  
+  
+  
+    
+  </div>
+
+  <div data-role="footer">
+    <h1> <a href="#calendar" data-transition="turn">Main Menu</a> </h1>
+  </div>
+</div> 
+</body>
+</html>
